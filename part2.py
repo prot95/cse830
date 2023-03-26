@@ -12,7 +12,6 @@ for i in range(1, 100001, 1000):
     data.append([random.randint(-100000, 100000) for j in range(i)])
 
 # Test different values of k
-k_values = [8, 16, 32, 64, 128, 256]
 averageTimes = []
 for k in range(10, 300, 10):
     print(f"Testing k = {k}")
@@ -68,7 +67,7 @@ def largeArguments():
     plt.plot(range(10, 1010, 10), avg_timsort, label='Tim Sort')
     plt.xlabel('n')
     plt.ylabel('Time (s)')
-    plt.title('Insertion Sort vs Merge Sort')
+    plt.title('Insertion Sort vs Merge Sort vs Tim Sort')
     plt.legend()
     #plt.show()
     plt.savefig('timVSother.png')
