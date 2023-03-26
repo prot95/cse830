@@ -14,5 +14,6 @@ This will generate one output graph in the same directory
 
 To run code for Ques 3:
 You need to install the `sortedcontainers` module to use the `SortedDict`:
-`pip install sortedcontainers`
+`pip install sortedcontainers` 
+Then,
 `python ans3.py`
